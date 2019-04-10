@@ -12,6 +12,7 @@
   </head>
   <body>
     <header>
+      <!-- 제일 위에 이모티콘 -->
       <div class="header_top">
         <div class="header_column">
           <i class="fa fa-fighter-jet"></i> <i class="fa fa-wifi"></i>
@@ -20,10 +21,73 @@
         <div class="header_column">
           <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
           <span class="header_battery">66%</span>
-          <i class="fa fa-battery-full"></i> i.fa.fa-battery-full
+          <i class="fa fa-battery-full"></i>
         </div>
       </div>
-      <div class="header_bottom"></div>
+      <div class="header_bottom">
+        <div class="header_column"><span class="header_text">Manage</span></div>
+        <div class="header_column">
+          <span class="header_text"
+            >Friends <span class="header_number">1</span></span
+          >
+        </div>
+        <div class="header_column"><i class="fa fa-cog fa-lg"></i></div>
+      </div>
     </header>
+
+    <main class="friends">
+      <!-- 검색창 -->
+      <div class="search_bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Find friends, chats, Plus Friends" />
+      </div>
+      <!-- 내 프로필 -->
+      <section class="friends_section">
+        <header class="friends_section-header">
+          <h6 class="friends_section-title">My Profile</h6>
+        </header>
+        <div class="friends_section-rows">
+          <div class="friends_section-row">
+            <img src="" alt="" />
+            <span class="friends_section-name">Jason park</span>
+          </div>
+          <div class="friends_section-row">
+            <img src="" alt="" />
+            <span class="friends_section-name">Friends' Names Display</span>
+          </div>
+        </div>
+      </section>
+      <!-- 친구 목록 -->
+      <section class="frineds_section">
+        <header class="friends_section-header">
+          <h6 class="frineds_section-title">Frineds</h6>
+        </header>
+        <div class="friends_section-rows">
+          <div class="friends_section-row">
+            <img src="" alt="" /> <span class="friends_section_name">LYNN</span>
+            <div class="friends_section-column"></div>
+            <span class="friends_section_tagline"
+              >Life is short, so live your life</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 제일 밑에 있는 네비게이션 -->
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar_tab">
+        <i class="fa fa-user"></i
+        ><span class="tab-bar-title-selct">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar_tab">
+        <i class="fa fa-comment"></i><span class="tab-bar-title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar_tab">
+        <i class="fa fa-search"></i><span class="tab-bar-title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar_tab">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar-title">More</span>
+      </a>
+    </nav>
   </body>
 </html>
