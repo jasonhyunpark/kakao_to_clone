@@ -9,9 +9,10 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <!-- 제일 위에 이모티콘 -->
       <div class="header_top">
         <div class="header_column">
@@ -37,7 +38,7 @@
 
     <main class="friends">
       <!-- 검색창 -->
-      <div class="search_bar">
+      <div class="search-bar">
         <i class="fa fa-search"></i>
         <input type="text" placeholder="Find friends, chats, Plus Friends" />
       </div>
@@ -79,18 +80,17 @@
     </main>
     <!-- 제일 밑에 있는 네비게이션 -->
     <nav class="tab-bar">
-      <a href="index.html" class="tab-bar_tab">
-        <i class="fa fa-user"></i
-        ><span class="tab-bar-title-selct">Friends</span>
+      <a href="index.html" class="tab-bar_tab tab-bar_tab--selected">
+        <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
       </a>
       <a href="chats.html" class="tab-bar_tab">
-        <i class="fa fa-comment"></i><span class="tab-bar-title">Chats</span>
+        <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
       </a>
       <a href="find.html" class="tab-bar_tab">
-        <i class="fa fa-search"></i><span class="tab-bar-title">Find</span>
+        <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
       </a>
       <a href="more.html" class="tab-bar_tab">
-        <i class="fa fa-ellipsis-h"></i><span class="tab-bar-title">More</span>
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
       </a>
     </nav>
   </body>
